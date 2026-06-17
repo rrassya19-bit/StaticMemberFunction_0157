@@ -27,6 +27,12 @@ Kendaraan::Kendaraan(int iId) {
     namaKendaraan = "Tidak Diketahui";
 }
 
+// Constructor hanya dengan nama
+Kendaraan::Kendaraan(string iNama) {
+    idKendaraan = 0;
+    namaKendaraan = iNama;
+}
+
 int main() {
     return 0;
 }
