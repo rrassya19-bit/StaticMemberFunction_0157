@@ -15,6 +15,12 @@ public:
     void tampilkanInfo();
 };
 
+// Constructor tanpa parameter, beri nilai default
+Kendaraan::Kendaraan() {
+    idKendaraan = 0;
+    namaKendaraan = "Tidak Diketahui";
+}
+
 int main() {
     return 0;
 }
