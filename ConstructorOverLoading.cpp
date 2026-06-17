@@ -17,6 +17,10 @@ class mahasiswa{
 mahasiswa :: mahasiswa(){
 }
 
+mahasiswa :: mahasiswa(int iNim){
+    nim = iNim; // definisi hanya NIM
+}
+
 int main() {
     return 0;
 }
