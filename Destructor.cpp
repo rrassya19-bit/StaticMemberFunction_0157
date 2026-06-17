@@ -14,6 +14,12 @@ public:
     void isiData();
 };
 
+angka::angka(int i){ // Constructor
+    panjang = i;
+    arr = new int[i];
+    isiData();
+}
+
 void angka::isiData()
 {
     for (int i = 1; i <= panjang; i++)
