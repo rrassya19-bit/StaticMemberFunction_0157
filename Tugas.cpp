@@ -33,6 +33,18 @@ Kendaraan::Kendaraan(string iNama) {
     namaKendaraan = iNama;
 }
 
+// Constructor dengan parameter lengkap
+Kendaraan::Kendaraan(int iId, string iNama) {
+    idKendaraan = iId;
+    namaKendaraan = iNama;
+}
+
+void Kendaraan::tampilkanInfo() {
+    cout << "ID Kendaraan   : " << idKendaraan << endl;
+    cout << "Nama Kendaraan : " << namaKendaraan << endl;
+    cout << "------------------------" << endl;
+}
+
 int main() {
     return 0;
 }
