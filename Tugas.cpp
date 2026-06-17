@@ -46,5 +46,22 @@ void Kendaraan::tampilkanInfo() {
 }
 
 int main() {
+    Kendaraan k1;                          // Constructor default
+    Kendaraan k2(101);                     // Constructor hanya id
+    Kendaraan k3("Avanza");                // Constructor hanya nama
+    Kendaraan k4(202, "Innova");           // Constructor lengkap
+
+    cout << "Data Kendaraan 1 (Default):" << endl;
+    k1.tampilkanInfo();
+
+    cout << "Data Kendaraan 2 (Hanya ID):" << endl;
+    k2.tampilkanInfo();
+
+    cout << "Data Kendaraan 3 (Hanya Nama):" << endl;
+    k3.tampilkanInfo();
+
+    cout << "Data Kendaraan 4 (Lengkap):" << endl;
+    k4.tampilkanInfo();
+
     return 0;
 }
